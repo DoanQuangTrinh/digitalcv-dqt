@@ -1,0 +1,103 @@
+ @media only screen and (max-width: 767px) {  
+    .img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 0;
+    }
+    #nar{
+        max-width: 100%;
+        height: auto;
+        border: 0;
+        
+    }
+    .nar{
+        max-width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction:column;
+    }
+    .hoten{
+        display: none;  
+    }
+    .nar>div{
+        border: 0;
+        width: 100%;
+        height: 20%;
+        border-bottom:1px solid black ;
+    }
+    .thongtin{
+        padding: 0;
+        border: 0;
+        max-width: 100%;
+    }
+    .duan{
+        padding-right: 45px;
+        padding-top: 16px
+    }
+    #content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .content-one{
+        font-size: 13px;
+    }
+    .content-one>p{
+        padding: 0 10px 10px 30px;
+        font-size: 20px;
+    }
+    .content-one>h2{
+        padding: 50px 10px 10px 30px;
+    }
+    .content-heading{
+        box-sizing: border-box;
+        padding-top: 50px !important;
+    }
+    .margin-mobie{
+        display: block !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        margin-left: 47px !important
+    }
+    .full-cc{
+        display: block ;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #aside{
+        margin: 0;
+        max-width: 100%;
+        padding: 0;
+    }
+    .giaithuong{
+        padding-left: 10px;
+        margin: 0;
+    }
+    .giaithuong2{
+        padding-left: 15px;
+        border-bottom: 2px solid #d6c08d;
+    }
+    .teammid{
+        padding-top: 30px;
+        border-left: 0 !important;
+    }
+    .teamlast{
+        padding-bottom:0 ;
+        border-top: 0;
+        border-bottom:2px solid #d6c08d; ;
+    }
+    #aside-next{
+        display: grid;
+        grid-template-columns: 366px;
+    }
+    .right-mar{
+        margin-right: 66px !important;
+    }
+    .next-two{
+        margin-left: 33px;
+    }
+    .next-three{
+        margin-left: 33px !important;
+    }
+}
